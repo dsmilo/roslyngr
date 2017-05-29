@@ -1,0 +1,21 @@
+Package: roslyngr
+Type: Package
+Title: Motion Charts Using Plotly and Shiny for Data Exploration
+Version: 0.0.0.9000
+Authors@R: person("Dan", "Smilowitz", email = "dan.smilowitz@gmail.com",
+  role = c("aut", "cre"))
+Description: Provides multiple graphical representations of datasets using
+    Plotly in a Shiny app.  Recreates the Hans-Rosling-style "motion" chart
+    along with additional single- and multiple-variable visualization options.
+    Allows for customization of visualization variables (axes, colors, size) to
+    provide a smoother version of the googleVis motion chart.
+Imports:
+    plotly,
+    shiny,
+    tidyverse
+Suggests:
+    gapminder
+URL: https://github.com/dsmilo/roslyngr
+License: MIT | file LICENSE
+Encoding: UTF-8
+LazyData: true
